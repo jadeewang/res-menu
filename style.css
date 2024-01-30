@@ -1,7 +1,13 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+}
+
 #main {
-    border-style: solid;
-    border-color: purple;
-    border-width: 2px;
+    border: 2px solid purple;
+    padding: 20px;
 }
 
 .pink {
@@ -9,12 +15,13 @@
 }
 
 h2 {
-    margin-bottom: 20px; /* Adjusted margin for spacing below each h2 header */
+    margin-bottom: 20px;
 }
 
 @media (min-width: 600px) {
     #container {
         display: flex;
+        justify-content: space-between;
     }
     
     #main {
@@ -22,6 +29,7 @@ h2 {
     }
     
     #sidebar {
-        width: 30%;
+        width: 28%; /* Adjusted sidebar width for a bit more space */
+        margin-left: 2%; /* Added margin to separate the main and sidebar */
     }
 }
