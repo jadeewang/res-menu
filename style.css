@@ -8,6 +8,10 @@
     color: pink;
 }
 
+h2 {
+    margin-bottom: 20px; /* Adjusted margin for spacing below each h2 header */
+}
+
 @media (min-width: 600px) {
     #container {
         display: flex;
