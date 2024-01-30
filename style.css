@@ -1,4 +1,13 @@
 #main {
     border-style: solid;
-    border-color: lavender
+    border-color: lavender;
+    border-width: 2px;
+}
+
+.pink {
+    color: pink;
+}
+
+#container {
+    display: flex;
 }
